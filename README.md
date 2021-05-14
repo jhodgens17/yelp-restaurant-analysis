@@ -19,7 +19,8 @@ Two-hundred restaurants in the LBI region were analyzed as part of this exercise
 - 67 were located on the mainland area west of LBI
 - 65 were located on the northern part of LBI
 - 68 were located on the southern part of LBI
-- 
+
+
 These restaurants were classified based on 70 categories including:
 1. Seafood
 2. Breakfast & Brunch
