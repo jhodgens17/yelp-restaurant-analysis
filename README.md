@@ -1,17 +1,17 @@
-# Phase 1 Project Template - Minimum Viable Product (MVP)
+# Reviewing Yelp data to inform decision on opening a restaurant in Long Beach Island, NJ
 
-![blueprint](images/blueprint.png)
+The purpose of this project was to use exploratory data analysis to generate insights regarding opening a restaurant in the Long Beach Island area located on the Jersey Shore. Data obtained from Yelp's API was leveraged to conduct the analysis. The primary objective was to answer two questions - 1) Where specifically in the LBI region should the restaurant be located? and 2) What type of restaurant should it be (i.e. what category of cuisine)?
 
-This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
+## Instructions For Using This Repository
+
 
 ## Repository Contents
 
-Below is a list of the contents of this repository - instructions for using them are in the next section.
+Below is a list of the contents of this repository.
 
 - `README.md`: The README for this repo branch explaining it's contents - you're reading it now
-- `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project
 - `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions
-- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy)
+- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project
 - `data` folder: A folder for the data you reference with your code
 - `images` folder: A folder for the images you reference in your files 
 - `.gitignore`: A hidden file that tells git to not track certain files and folders
