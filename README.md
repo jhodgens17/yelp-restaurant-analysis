@@ -30,7 +30,7 @@ These restaurants were classified based on 70 categories including:
 Note: The above restaurant categories were the 8 most common in the dataset.
 
 ## Deeper dive into the results
-TO BE UPDATED
+TO BE UPDATED...
 
 ## Repository Contents
 
