@@ -1,20 +1,22 @@
 # Reviewing Yelp data to inform decision on opening a restaurant in Long Beach Island, NJ
 
-The purpose of this project was to use exploratory data analysis to generate insights regarding opening a restaurant in the Long Beach Island area located on the Jersey Shore. Data obtained from Yelp's API was leveraged to conduct the analysis. The primary objective was to answer two questions - 1) Where specifically in the LBI region should the restaurant be located? and 2) What type of restaurant should it be (i.e. what category of cuisine)?
+The purpose of this project was to use exploratory data analysis to generate insights around opening a restaurant. This exercise was focused on opening a restaurant in the Long Beach Island area of the Jersey Shore. Data obtained from Yelp's API was leveraged to conduct the analysis. The primary objective of this project was to answer two questions - 1) Where specifically in the LBI region should the restaurant be located? and 2) What type of restaurant should it be (i.e. what category of cuisine)?
 
 ## Summary of analysis
-Yelp data was reviewed for existing restaurants in the LBI region including the:
-- Ratings
-- Number of reviews
+Yelp data was pulled and reviewed for existing restaurants in the LBI region including:
+- Ratings of each restaurant
+- Total number of reviews
 - Restaurant categories
-- Locations
+- Locations (latitude, longitude, address, etc.)
 
-Based on athe anlaysis conducted in this exercise, there is an opportunity to open a sushi restaurant in the mainland region west of Long Beach Island or on the southern part of the island.
+## Key Finding
+
+Based on the anlaysis conducted in this exercise, there is an opportunity to open a sushi restaurant in the mainland region west of Long Beach Island or on the southern part of the island.
 
 ## Overview of the dataset
 Data was pulled using the Yelp API for business information.
 Two-hundred restaurants in the LBI region were analyzed as part of this exercise:
-- 67 were located on the mainland
+- 67 were located on the mainland area west of LBI
 - 65 were located on the northern part of LBI
 - 68 were located on the southern part of LBI
 These restaurants were classified based on 70 categories including:
@@ -29,8 +31,13 @@ These restaurants were classified based on 70 categories including:
 
 Note: The above restaurant categories were the 8 most common in the dataset.
 
-## Deeper dive into the results
-TO BE UPDATED...
+## Deeper dive into the process/results
+- Less common restaurant categories (those with less than 5 restaurants in the LBI region) were filtered out from analysis
+- The average number of reviews for each restaurant category was compared against the average rating (out of 5 stars) using a scatter plot
+- Based on the scatter plot, the most popular categories of restaurants in LBI are Burgers, Sushi Bars, Seafood, American (New), American (Traditional), and Breakfast & Brunch
+- The number of restaurants for the six popular categories were plotted on a stacked bar chart for each area of LBI (mainland, island-north, and island-south) 
+- In order to identify areas where a new restaurant would face strong competition, only restaurants with a rating greater than 3.5 were counted on the bar chart
+- According to the bar chart, there are currently no good sushi or seafood restaurants on the mainland and there are no good sushi restaurants on the southern part of the island - this presents an opportunity for a new venture in LBI
 
 ## Repository Contents
 
